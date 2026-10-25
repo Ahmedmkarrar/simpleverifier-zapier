@@ -1,0 +1,23 @@
+{
+  "name": "zapier-simpleverifier",
+  "version": "1.0.0",
+  "description": "Zapier integration for SimpleVerifier: verify email addresses and validate phone numbers.",
+  "main": "index.js",
+  "private": true,
+  "author": "SimpleVerifier Team",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/app.test.js test/actions.test.js",
+    "validate": "zapier-platform validate",
+    "push": "zapier-platform push"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "zapier-platform-core": "19.2.1"
+  },
+  "devDependencies": {
+    "zapier-platform-cli": "^19.2.1"
+  }
+}
